@@ -1,0 +1,31 @@
+body{
+
+}
+
+
+.pw_boxes_holder{
+}
+
+
+.pw_box_iner{
+    background-color: blue;
+    min-height:200px;
+}
+
+.pw_box_content{
+    border:1px solid red;
+    position:absolute;
+    bottom:-50%;
+    left:0px;
+    width:100%;
+    display:none;
+}
+
+
+.pw_box:hover{
+    margin-bottom:50%;
+    .pw_box_content{
+        display: block;
+    }
+}
+
