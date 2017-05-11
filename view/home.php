@@ -109,13 +109,18 @@ include('included/header.php');
 </style>
 <div class="col-sm-12 box_parallax"></div>
 -->
-<div class="col-sm-12 box_parallax" data-parallax="scroll" data-image-src="<?php echo $mainUrl;?>img/new_0095a.jpg" style="min-height:550px;">
-<img scr="<?php echo $mainUrl;?>img/new_0095a.jpg" style="min-height:550px;" />
+<style>
+
+</style>
+<div class="clear">djhsdkhgfjh</div>
+<div class="col-sm-12 box_parallax join_us_box_parall" data-parallax="scroll" data-image-src="<?php echo $mainUrl;?>img/new_0095a.jpg" style="">
+<img src="<?php echo $mainUrl;?>img/new_0095a.jpg" />
 </div>
 <!-- careers-parrallax.jpg -->
 <div class="col-sm-12 box_message">
   <div class="box_message_iner">
   <h2 paw-animateXXX="fadeInUp" paw-delayXXX="400">JOIN US</h2>
+
   <div class="clear" style="height:20px;"></div>
   <div paw-animateXXX="fadeInUp" paw-delayXXX="500">
   <?php $cms->ContentHTML('home_2'); ?> 

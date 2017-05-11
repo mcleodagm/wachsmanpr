@@ -1268,6 +1268,30 @@ html {
   background: transparent;
   padding: 0px; }
 
+.join_us_box_parall {
+  min-height: 550px; }
+  .join_us_box_parall img {
+    display: none; }
+
+@media screen and (max-width: 780px) {
+  .join_us_box_parall {
+    height: auto !important;
+    min-height: auto !important;
+    padding: 0px; }
+    .join_us_box_parall img {
+      display: block;
+      width: 100%; } }
+.carrers_split_box img {
+  display: none; }
+
+@media screen and (max-width: 780px) {
+  .carrers_split_box {
+    height: auto !important;
+    min-height: auto !important;
+    padding: 0px; }
+    .carrers_split_box img {
+      display: block;
+      width: 100%; } }
 .box_front {
   text-align: center;
   padding: 0px;

@@ -64,7 +64,9 @@ include('included/header.php');
 
  <div class="clear" style="height:0px;"></div>
 
-<div class="col-sm-12 box_parallax carrers_split_box" style="background-image:url('<?php echo $mainUrl;?>img_new/slider_3.jpg');"  ></div>
+<div class="col-sm-12 box_parallax carrers_split_box" style="background-image:url('<?php echo $mainUrl;?>img_new/slider_3.jpg');"  >
+<img src="<?php echo $mainUrl;?>img_new/slider_3.jpg" />
+</div>
  <div class="clear" style="height:40px;"></div>
 
 <div class="container single_team_content" style="min-height:200px;">
